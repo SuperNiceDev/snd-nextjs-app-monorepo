@@ -1,0 +1,3 @@
+[submodule "src/apps/snd-nextjs-app"]
+	path = src/apps/snd-nextjs-app
+	url = git@github.com:SuperNiceDev/snd-nextjs-app.git
