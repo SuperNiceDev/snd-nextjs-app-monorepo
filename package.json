@@ -1,16 +1,18 @@
 {
   "name": "snd-nextjs-app-monorepo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "private": true,
   "workspaces": [
     "src/apps/snd-nextjs-app",
+    "src/apps/snd-strapi-cms",
     "src/packages/*"
   ],
   "scripts": {
     "dev": "yarn workspace snd-nextjs-app dev",
     "build": "yarn workspace snd-nextjs-app build",
-    "start": "yarn workspace snd-nextjs-app start"
+    "start": "yarn workspace snd-nextjs-app start",
+    "dev:strapi": "yarn workspace snd-strapi-cms dev"
   },
   "devDependencies": {},
   "dependencies": {}
