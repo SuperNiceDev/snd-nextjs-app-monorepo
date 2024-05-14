@@ -9,22 +9,19 @@ https://classic.yarnpkg.com/en/docs/install#mac-stable
 
 --------------------------------------------
 
-init all git submodules
+1. init all git submodules
 ```sh
 git submodule update --init --recursive
 ```
 
-install dependencies
+2. install dependencies
 ```sh
 yarn
 ```
 
-run development
+3. fix strapi sharp dependency error
 ```sh
-yarn dev
+yarn workspace snd-strapi-cms add sharp --ignore-engines 
 ```
 
-run build
-```sh
-yarn build
-```
+4. got to ```./package.json``` and run the needed scripts

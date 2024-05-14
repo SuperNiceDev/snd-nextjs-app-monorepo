@@ -1,5 +1,6 @@
 {
   "name": "snd-nextjs-app-monorepo",
+  "description": "A monorepo with Next.js and Strapi boilerplate and a React library",
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
@@ -9,11 +10,15 @@
     "src/packages/*"
   ],
   "scripts": {
-    "dev": "yarn workspace snd-nextjs-app dev",
-    "build": "yarn workspace snd-nextjs-app build",
-    "start": "yarn workspace snd-nextjs-app start",
-    "dev:strapi": "yarn workspace snd-strapi-cms dev",
-    "dev:react-lib": "yarn workspace snd-react-lib dev"
+    "nextjs:dev": "yarn workspace snd-nextjs-app dev",
+    "nextjs:build": "yarn workspace snd-nextjs-app build",
+    "nextjs:start": "yarn workspace snd-nextjs-app start",
+    "strapi:dev": "yarn workspace snd-strapi-cms dev",
+    "react-lib:dev": "yarn workspace snd-react-lib dev",
+    "react-lib:build": "yarn workspace snd-react-lib build",
+    "react-lib:story": "yarn workspace snd-react-lib story",
+    "react-lib:test": "yarn workspace snd-react-lib test",
+    "removeNodeModules": "rm -rf ./node_modules && yarn workspace snd-nextjs-app removeNodeModules && yarn workspace snd-strapi-cms removeNodeModules && yarn workspace snd-react-lib removeNodeModules"
   },
   "devDependencies": {},
   "dependencies": {}
