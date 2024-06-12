@@ -21,7 +21,7 @@ yarn
 
 3. fix strapi sharp dependency error
 ```sh
-yarn workspace snd-strapi-cms add sharp --ignore-engines 
+yarn workspace snd-strapi-cms add -D sharp --ignore-engines
 ```
 
 4. got to ```./package.json``` and run the needed scripts
