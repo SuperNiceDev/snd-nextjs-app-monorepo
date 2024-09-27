@@ -1,4 +1,4 @@
 {
-  "typescript.preferences.importModuleSpecifier": "non-relative", // "non-relative"
+  "typescript.preferences.importModuleSpecifier": "non-relative", // "relative"
   "typescript.tsdk": "node_modules/typescript/lib"
 }
