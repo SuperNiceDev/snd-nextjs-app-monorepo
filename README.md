@@ -24,4 +24,4 @@ yarn
 yarn workspace snd-strapi-cms add -D sharp --ignore-engines
 ```
 
-4. got to ```./package.json``` and run the needed scripts
+4. see ```./package.json``` and run the needed scripts
