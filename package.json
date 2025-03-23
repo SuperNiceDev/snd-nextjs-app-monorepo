@@ -13,6 +13,8 @@
     "nextjs:dev": "yarn workspace snd-nextjs-app dev",
     "nextjs:build": "yarn workspace snd-nextjs-app build",
     "nextjs:start": "yarn workspace snd-nextjs-app start",
+    "nextjs:build-standalone": "yarn workspace snd-nextjs-app build-standalone",
+    "nextjs:start-standalone": "yarn workspace snd-nextjs-app start-standalone",
     "strapi:dev": "yarn workspace snd-strapi-cms dev",
     "react-lib:dev": "yarn workspace snd-react-lib dev",
     "react-lib:build": "yarn workspace snd-react-lib build",
