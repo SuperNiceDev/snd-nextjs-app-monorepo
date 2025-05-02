@@ -1,4 +1,10 @@
-# install, development and build
+# snd-react-lib
+
+Welcome to [SuperNice Dev](https://www.supernice-dev.com/en) snd-nextjs-app-monorepo.
+
+This is a monorepo for [snd-nextjs-app](https://github.com/SuperNiceDev/snd-nextjs-app) that uses [snd-react-lib](https://github.com/SuperNiceDev/snd-react-lib).
+
+## Setup
 
 - install Node.js:
 https://nodejs.org/en/download
