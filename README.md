@@ -15,7 +15,7 @@ https://classic.yarnpkg.com/en/docs/install#mac-stable
 
 ---
 
-- iInit all git submodules:
+- init all git submodules:
 ```sh
 git submodule update --init --recursive
 ```
