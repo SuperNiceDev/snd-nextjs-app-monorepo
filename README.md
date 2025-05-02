@@ -1,4 +1,4 @@
-# snd-react-lib
+# snd-nextjs-app-monorepo
 
 Welcome to [SuperNice Dev](https://www.supernice-dev.com/en) snd-nextjs-app-monorepo.
 
@@ -15,19 +15,19 @@ https://classic.yarnpkg.com/en/docs/install#mac-stable
 
 ---
 
-- Init all git submodules:
+- iInit all git submodules:
 ```sh
 git submodule update --init --recursive
 ```
 
-- Install dependencies:
+- install dependencies:
 ```sh
 yarn
 ```
 
-- Setup [snd-nextjs-app](./src/apps/snd-nextjs-app/README.md).
+- setup [snd-nextjs-app](./src/apps/snd-nextjs-app/README.md).
 
-- See [package.json](./package.json) and run the needed scripts.
+- see [package.json](./package.json) and run the needed scripts.
 
 ---
 
