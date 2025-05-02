@@ -1,9 +1,0 @@
-[submodule "src/apps/snd-nextjs-app"]
-	path = src/apps/snd-nextjs-app
-	url = git@github.com:SuperNiceDev/snd-nextjs-app.git
-[submodule "src/apps/snd-strapi-cms"]
-	path = src/apps/snd-strapi-cms
-	url = git@github.com:SuperNiceDev/snd-strapi-cms.git
-[submodule "src/packages/snd-react-lib"]
-	path = src/packages/snd-react-lib
-	url = git@github.com:SuperNiceDev/snd-react-lib.git
