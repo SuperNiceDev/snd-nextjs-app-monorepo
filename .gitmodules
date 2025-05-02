@@ -1,0 +1,6 @@
+[submodule "src/package/snd-react-lib"]
+	path = src/package/snd-react-lib
+	url = git@github.com:SuperNiceDev/snd-react-lib.git
+[submodule "src/apps/snd-nextjs-app"]
+	path = src/apps/snd-nextjs-app
+	url = git@github.com:SuperNiceDev/snd-nextjs-app.git
