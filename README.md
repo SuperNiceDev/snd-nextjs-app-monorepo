@@ -2,7 +2,7 @@
 
 Welcome to [SuperNice Dev](https://www.supernice-dev.com/en) Next.js app monorepo.
 
-This is a monorepo for [snd-nextjs-app](https://github.com/SuperNiceDev/snd-nextjs-app) that uses [snd-react-lib](https://github.com/SuperNiceDev/snd-react-lib).
+This is a monorepo for [snd-nextjs-app](https://github.com/SuperNiceDev/snd-nextjs-app) that uses [snd-react-lib](https://github.com/SuperNiceDev/snd-react-lib) and [snd-strapi-cms](https://github.com/SuperNiceDev/snd-strapi-cms).
 
 
 ## Setup
