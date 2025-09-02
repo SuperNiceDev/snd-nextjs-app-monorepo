@@ -3,7 +3,7 @@
   "description": "A monorepo boilerplate with Next.js, Strapi CMS and a React library",
   "version": "0.1.0",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "workspaces": [
     "src/apps/snd-nextjs-app",
     "src/packages/*"
